@@ -224,8 +224,8 @@
     color: rgb(147, 207, 235);
     text-shadow: 1px 1px 1px white, 2px 2px 2px white, 3px 3px 3px rgb(147, 207, 235);
     text-decoration: underline;
-    top: 290px;
-    left: 70px;
+    top: 50%;
+    left: 10%;
     transform: rotate(-6deg)
   }
 
@@ -312,8 +312,8 @@
 
   .box-1 .genotype-informatie {
     position: absolute;
-    left: 40px;
-    top: 230px;
+    left: 5%;
+    top: 7.5%;
     font-family: lettertype-1;
     text-shadow: 2px 2px 2px rgb(114, 134, 214);
     font-size: 25px;
@@ -337,7 +337,7 @@
 
   .genotype-informatie span {
     display: block;
-    padding-left: 70px;
+    padding-left: 65px;
   }
 
   .box-2 {
@@ -642,9 +642,8 @@
 
     .container-2 .box-6 {
     order: 4;
-    margin-left: 70%;
-    margin-top: -70px;
-    width: 40%;
+    margin-left: 60%;
+    margin-top: -100px;
 
   }
 
@@ -733,7 +732,7 @@
 
 .rechthoek-links .rectangle {
   position: absolute;
-  top: 920px;
+  top: 900px;
   left: 0px;
   height: 900px;
   width: 150px;
@@ -779,7 +778,7 @@
 
 .container-4 .box-2 p {
   font-family: lettertype-7;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   padding-right: 40%;
   padding-left: 10%;
@@ -793,12 +792,46 @@
 
 .rechthoek-onder .rectangle {
   position: absolute;
-  top: 620px;
+  top: 615px;
   z-index: 1;
 }
 
+.tekst .overerving {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.container-5 {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.container-5 .box-6 {
+    order: 1;
+    margin-left: 70%;
+}
+
+.container-5 .box-3 {
+    order: 2;
+    margin-top: 100px;
+}
+
+.container-5 .box-4 {
+    order: 3;
+    margin-top: 150px;
+    margin-left: 5px;
+}
+
+.container-6 {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
   
-
-
-
-  
+.container-6 .box-1 .allelen-informatie {
+    order: 2;
+}
